@@ -1,43 +1,74 @@
+:root {
+  --primary-color: #fbbf24;
+  --secondary-color: #fde047;
+}
+
 body {
   display: flex;
   flex-direction: column;
-  margin: 0;
-  background-color: green;
+  background-color: white;
   align-items: center;
 }
 .heading {
   text-align: center;
-  color: yellowgreen;
+  color: white;
 }
-#txt-input {
+
+.container {
+  padding: 1rem;
+  background-color: var(--primary-color);
+  width: 100vw;
+}
+.main-container {
+  margin: auto;
+  width: 50%;
+}
+/* #txt-input {
   width: 100%;
   margin: 1rem;
-  padding: 1rem;
+  padding: 1rem; */
+/* } */
+.output-heading {
+  margin-top: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
+.translate-button {
+  align-items: center;
 }
 #btn-translate {
-  width: 30%;
-  margin: 1rem;
-  padding: 0.5rem;
-  background-color: yellowgreen;
+  width: 50%;
+  padding: 0.7rem;
+  background-color: var(--secondary-color);
+  margin-top: 1rem;
+  border-color: var(--secondary-color);
+  color: white;
+  font-size: medium;
+}
+.textbox {
+  width: 100%;
+  padding: 2rem;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  border-color: var(--primary-color);
 }
 .footer {
-  background-color: yellow;
-  padding: 2rem 1rem;
+  background-color: var(--primary-color);
+  padding: 1.5rem;
   text-align: center;
-  color: green;
-  border-top-right-radius: 1rem;
+  color: white;
   width: 100vw;
   position: fixed;
   bottom: 0;
 }
 .footer .link {
-  color: green;
+  color: White;
   text-decoration: none;
   padding: 0.5rem;
 }
 .footer .footer-header {
   font-weight: bold;
-  font-size: large;
+  font-size: larger;
 }
 .footer ul {
   padding-inline-start: 0px;
@@ -45,7 +76,7 @@ body {
 .footer ul li {
   display: inline;
 }
-main {
+/* main {
   width: 70vw;
   margin: auto;
-}
+} */
